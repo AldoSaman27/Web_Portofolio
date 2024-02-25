@@ -1,0 +1,31 @@
+#skill {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    color: white;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.skill_icon {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+    .skills {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 884px) {
+
+}

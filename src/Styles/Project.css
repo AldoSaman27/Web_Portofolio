@@ -1,0 +1,48 @@
+#project {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.project_cards {
+    width: 300px;
+    min-height: 365px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.project_cards .cards_image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cards_description {
+    height: 150px;
+}
+
+.cards_description h5 {
+    font-size: 18px;
+}
+
+.cards_description p {
+    font-size: 15px;
+}
+
+/* .cards_description a {
+    padding: 5px 10px;
+    background-color: rgb(50, 130, 230);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+} */
+
+.cards_description a:hover {
+    background-color: rgb(80, 150, 250);
+}

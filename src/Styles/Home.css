@@ -1,0 +1,82 @@
+#home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    color: white;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+#home .container h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+#home .container h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+#home .container h3 {
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(90deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 20%, rgb(255, 204, 112) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#home .container h3 span {
+    animation: blink 1s step-end infinite;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#home .container .lf-player-container {
+    width: 400px;
+}
+
+@keyframes blink {
+    from, to {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #home .container {
+        text-align: center;
+    }
+    #home .container h2 {
+        font-size: 30px;
+    }
+    #home .container h1 {
+        font-size: 35px;
+    }
+    #home .container h3 {
+        font-size: 20px;
+    }
+
+    #home .container .lf-player-container {
+        width: 290px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 884px) {
+    #home .container h2 {
+        font-size: 35px;
+    }
+    #home .container h1 {
+        font-size: 38px;
+    }
+    #home .container h3 {
+        font-size: 25px;
+    }
+
+    #home .container .lf-player-container {
+        width: 300px;
+    }
+}

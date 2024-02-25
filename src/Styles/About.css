@@ -1,0 +1,55 @@
+#about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    color: white;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+#about .container img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+#about .container h4 {
+    background: linear-gradient(90deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 20%, rgb(255, 204, 112) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#about .container h4 span {
+    animation: blink 1s step-end infinite;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 425px) {
+    #about .container .row .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about .container .row .image img {
+        margin: 20px 0px;
+    }
+    #about .container .row .col-11 {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 884px) {
+    #about .container .row .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about .container .row .image img {
+        margin: 20px 0px;
+    }
+    #about .container .row .col-11 {
+        padding-top: 70px;
+    }
+}
