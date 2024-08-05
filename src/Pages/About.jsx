@@ -31,8 +31,8 @@ const About = () => {
                         <div className="col-11 col-lg-7 me-lg-5 m-auto">
                             <h1 className="fw-bold">About Me</h1>
                             <h4 className="mt-3 mb-3 fw-bold">{text}<span>|</span></h4>
-                            <p>Halo, nama saya Muhammad Reynald Saman. Saya tinggal di Gorontalo, Indonesia. Saya lahir di Gorontalo pada tanggal 27 Maret 2007. Saat ini, saya berusia 16 tahun. Saya adalah siswa jurusan Rekayasa Perangkat Lunak dan GIM di SMKN 3 Gorontalo.</p>
-                            <p>Coding telah menjadi hobi saya sejak saya berusia 14 tahun, dan saya menyukai komputer sejak saya masih kecil. Selain coding, saya juga menikmati mendengarkan musik, terutama dari JKT48. Saya juga memiliki minat dalam bermain game, dengan Valorant, GTA San Andreas, dan GTA V menjadi beberapa permainan favorit yang sering saya mainkan.</p>
+                            <p>Halo, nama saya Muhammad Reynald Saman. Saya tinggal di Gorontalo, Indonesia. Saya lahir di Gorontalo pada tanggal 27 Maret 2007. Saat ini, saya berusia 17 tahun. Saya adalah siswa jurusan Rekayasa Perangkat Lunak dan GIM di SMK Negeri 3 Gorontalo.</p>
+                            <p>Coding telah menjadi hobi saya sejak saya berusia 14 tahun, dan saya menyukai komputer sejak saya masih kecil. Selain coding, saya juga menikmati mendengarkan musik, terutama dari JKT48. Saya juga memiliki minat dalam bermain game. Valorant, GTA San Andreas, dan GTA V menjadi beberapa permainan favorit yang sering saya mainkan.</p>
                         </div>
                         <div className="col image">
                             <img src={AldoSaman} alt="Aldo Saman"/>
